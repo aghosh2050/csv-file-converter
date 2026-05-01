@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
 
 import java.util.List;
 
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2023-10-01T00:00:00.000Z[Etc/UTC]")
+@jakarta.annotation.Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2023-10-01T00:00:00.000Z[Etc/UTC]")
 public interface PersonApi {
 
     @Operation(summary = "Get all persons", operationId = "getPersons", description = "", tags={  })

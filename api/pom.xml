@@ -27,10 +27,15 @@
             <version>2.2.0</version>
         </dependency>
         <dependency>
+            <groupId>org.openapitools</groupId>
+            <artifactId>jackson-databind-nullable</artifactId>
+        </dependency>
+        <dependency>
             <groupId>com.example</groupId>
             <artifactId>model</artifactId>
             <version>${project.version}</version>
         </dependency>
+
     </dependencies>
 
     <build>

@@ -1,0 +1,4 @@
+com\example\csvconverter\batch\config\CsvBatchConfig.class
+com\example\csvconverter\batch\processor\PersonItemProcessor.class
+com\example\csvconverter\batch\reader\CsvItemReader.class
+com\example\csvconverter\batch\writer\CsvItemWriter.class

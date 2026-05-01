@@ -1,0 +1,5 @@
+com\example\csvconverter\api\controller\PersonControllerImpl.class
+com\example\csvconverter\api\spec\ApiUtil.class
+com\example\csvconverter\api\spec\PersonsApi.class
+com\example\csvconverter\model\PersonDto.class
+com\example\csvconverter\api\spec\PersonApi.class

@@ -1,0 +1,28 @@
+openapi: 3.0.3
+info:
+  title: Person API
+  version: 1.0.0
+paths:
+  /persons:
+    get:
+      summary: Get all persons
+      responses:
+        '200':
+          description: Successful response
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/PersonDto'
+components:
+  schemas:
+    PersonDto:
+      type: object
+      properties:
+        fullName:
+          type: string
+        yearsOld:
+          type: integer
+        birthDateStr:
+          type: string
